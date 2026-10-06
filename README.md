@@ -123,7 +123,7 @@ per-day edge. That is a meaningful distinction and the honest reading of this ta
 ### Random Forest learner vs. rules vs. benchmark
 
 <p align="center">
-  <img src="images/experiment1_in_sample.png" width="640" alt="In-sample portfolio comparison"/>
+  <img src="experiment1_in_sample.png" width="640" alt="In-sample portfolio comparison"/>
 </p>
 
 In-sample, the learner clearly outperforms both the rules and the benchmark. This is the expected and
@@ -131,7 +131,7 @@ largely uninformative result — it is being evaluated on data it trained on, so
 fit, not skill.
 
 <p align="center">
-  <img src="images/experiment1_out_of_sample.png" width="640" alt="Out-of-sample portfolio comparison"/>
+  <img src="experiment1_out_of_sample.png" width="640" alt="Out-of-sample portfolio comparison"/>
 </p>
 
 Out-of-sample is the result that matters. The learner and the rules track each other closely at the
@@ -148,8 +148,8 @@ Market impact models the cost of moving the price against yourself when you trad
 re-evaluated in-sample across impact values from 0% to 4% of trade value.
 
 <p align="center">
-  <img src="images/experiment2_cumreturn.png" width="480" alt="Impact vs cumulative return"/>
-  <img src="images/experiment2_sharpe.png" width="480" alt="Impact vs Sharpe ratio"/>
+  <img src="experiment2_cumreturn.png" width="480" alt="Impact vs cumulative return"/>
+  <img src="experiment2_sharpe.png" width="480" alt="Impact vs Sharpe ratio"/>
 </p>
 
 Cumulative return declines monotonically as impact rises, from roughly +0.5 at zero impact to about
